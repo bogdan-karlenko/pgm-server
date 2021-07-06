@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es2015",
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
